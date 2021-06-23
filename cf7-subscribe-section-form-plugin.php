@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CF7 Subscribe Section
+Plugin Name: Subscribe Section for CF7 by RMcC
 Plugin URI: #
 Description: A custom subscribe/signup section with CF7 form. Requires a CF7 form called "Subscribe" to exist, e.g [contact-form-7 title="Subscribe"]. 
 Version: 1.0.0
