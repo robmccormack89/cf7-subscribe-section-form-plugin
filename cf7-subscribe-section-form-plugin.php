@@ -19,12 +19,13 @@ defined('ABSPATH') || exit;
 // define some constants
 if (!defined('CF7_SUBSCRIBE_SECTION_PATH')) define('CF7_SUBSCRIBE_SECTION_PATH', plugin_dir_path( __FILE__ ));
 if (!defined('CF7_SUBSCRIBE_SECTION_URL')) define('CF7_SUBSCRIBE_SECTION_URL', plugin_dir_url( __FILE__ ));
-
-// require action functions 
-require_once('inc/functions.php');
+if (!defined('CF7_SUBSCRIBE_SECTION_BASE')) define('CF7_SUBSCRIBE_SECTION_BASE', dirname(plugin_basename( __FILE__ )));
 
 // require the composer autoloader
 if (file_exists($composer_autoload = __DIR__.'/vendor/autoload.php')) require_once $composer_autoload;
 
 // then require the main plugin class. this class extends Timber/Timber which is required via composer
 new Rmcc\CF7SubscribeSection;
+
+// require action functions 
+require_once('inc/functions.php');
