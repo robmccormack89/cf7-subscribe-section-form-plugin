@@ -2,7 +2,7 @@
 /*
 Plugin Name: Subscribe Section for CF7 by RMcC
 Plugin URI: #
-Description: A custom subscribe/signup section with CF7 form. Requires a CF7 form called "Subscribe" to exist, e.g [contact-form-7 title="Subscribe"]. 
+Description: Adds a custom subscribe/signup section using the theme location: 'rmcc_before_footer' with priority of 10. Requires a CF7 form called "Subscribe" to exist, e.g [contact-form-7 title="Subscribe"]. This plugin is translation-ready.
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
