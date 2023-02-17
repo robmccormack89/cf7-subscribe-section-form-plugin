@@ -1,8 +1,7 @@
 <?php
 
-function subscribe_html() {
-  
+function subscribe_section() {
   $context = Timber::context();
-  
-  Timber::render('subscribe.twig', $context);
+  $out = Timber::compile('subscribe-section.twig', $context);
+  return $out;
 }

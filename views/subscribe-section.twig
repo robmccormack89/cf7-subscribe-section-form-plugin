@@ -1,0 +1,11 @@
+<section class="subscribe-section uk-card uk-card-default uk-card-body uk-text-center">
+
+  <span class="subscribe-icon uk-text-primary uk-margin-small-top" uk-icon="icon: mail; ratio: 3"></span>
+
+  <h3 class="uk-margin-small-top">{{ _x('Make sure you dont miss out!', 'Title', 'subscribe-section')|e('esc_html') }}</h3>
+
+  {{ function('do_shortcode', _x('[myshortcode title="myshortcode"]', 'Sign-up form shortcode', 'subscribe-section')|e('wp_kses_post')) }}
+
+  <p class="uk-text-emphasis">{{ _x('Get notified about the latest promotions & updates. Sign up for first access to new products, sales & events. ', 'Description', 'subscribe-section')|e('esc_html') }}</p>
+
+</section>

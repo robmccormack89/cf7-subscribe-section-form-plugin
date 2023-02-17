@@ -6,7 +6,7 @@ const replace = require('gulp-replace');
 const rename = require('gulp-rename');
 
 const config = {
-  "text_domain" : "cf7-subscribe-section",
+  "text_domain" : "subscribe-section",
   "twig_files"  : "views/**/*.twig",
   "php_files"   : "{*.php,!(vendor|page-templates)/**/*.php}", // all php files in all folders incl. root except vendor|page-templates
   "cacheFolder" : "views/temp",
